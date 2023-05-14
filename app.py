@@ -10,6 +10,9 @@ class InferlessPythonModel:
 
     def infer(self, inputs):
         audio_url =  inputs["audio_url"]
+        task =  inputs["task"]
+        language =  inputs["language"]
+        return_timestamps =  inputs["return_timestamps"]
         pipeline_output = self.generator(audio_url)
         generated_txt = pipeline_output["text"]
         data = { "transcribed_text" : generated_txt } 
