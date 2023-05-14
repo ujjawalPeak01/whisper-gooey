@@ -12,7 +12,7 @@ class InferlessPythonModel:
         audio_url =  inputs["audio_url"]
         pipeline_output = self.generator(audio_url)
         generated_txt = pipeline_output["text"]
-        data = { "generated_txt" : generated_txt } 
+        data = { "transcribed_text" : generated_txt } 
         return data
 
     def finalize(self):
