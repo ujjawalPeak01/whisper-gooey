@@ -2,7 +2,6 @@ import json
 import numpy as np
 import torch
 from transformers import pipeline
-import cv2
 
 
 class InferlessPythonModel:
