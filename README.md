@@ -1,6 +1,6 @@
 # Whisper-Gooey
 
-Whisper Gooey is an ASR (Automatic Spech Recognition) model developed by OpenAI. This template refers to the fine tuned version of the model on the Hindi Dataset. You can use this template to import the model on Inferless.
+Whisper is an ASR (Automatic Spech Recognition) model developed by OpenAI. This template refers to the fine tuned version of the model on the Hindi Dataset. You can use this template to import the model on Inferless.
 
 ## Prerequisites
 - **Git**. You would need git installed on your system if you wish to customize the repo after forking.
@@ -8,7 +8,7 @@ Whisper Gooey is an ASR (Automatic Spech Recognition) model developed by OpenAI.
 - **Curl**. You would need Curl if you want to make API calls from the terminal itself.
 
 ## Quick Start
-Here is a quick start to help you get up and running with Whisper-Gooey on Inferless.
+Here is a quick start to help you get up and running with Whisper on Inferless.
 
 ### Fork the repository
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
