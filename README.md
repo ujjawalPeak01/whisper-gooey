@@ -30,7 +30,7 @@ The following is a sample Input and Output JSON for this model which you can use
   "inputs": [
     {
       "data": [
-        "https://cdn-media.huggingface.co/speech_samples/sample2.flac"
+        "http://voiceoversamples.com/download.php?file=hindi/HIN_M_AbhishekS.mp3"
       ],
       "name": "audio_url",
       "shape": [
@@ -101,7 +101,7 @@ curl --location '<your_inference_url>' \
                     "inputs": [
                         {
                             "data": [
-                                "https://cdn-media.huggingface.co/speech_samples/sample2.flac"
+                                "http://voiceoversamples.com/download.php?file=hindi/HIN_M_AbhishekS.mp3"
                             ],
                             "name": "audio_url",
                             "shape": [
