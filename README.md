@@ -1,4 +1,4 @@
-# Whisper-Gooey
+# Whisper
 
 Whisper is an ASR (Automatic Spech Recognition) model developed by OpenAI. This template refers to the fine tuned version of the model on the Hindi Dataset. You can use this template to import the model on Inferless.
 
