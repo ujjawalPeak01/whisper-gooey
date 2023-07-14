@@ -15,6 +15,8 @@ class InferlessPythonModel:
         return_timestamps =  inputs["return_timestamps"]
         pipeline_output = self.generator(audio_url)
         generated_txt = pipeline_output["text"]
+        print("Pipeline Output -->", pipeline_output, flush=True)
+        print("Generated Text -->", generated_txt, flush=True)
         data = { "transcribed_text" : generated_txt } 
         return data
 
